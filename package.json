@@ -1,0 +1,30 @@
+{
+  "name": "testfullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "format": "prettier --write *js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kalv4doS/testfullstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kalv4doS/testfullstack/issues"
+  },
+  "homepage": "https://github.com/Kalv4doS/testfullstack#readme",
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "sqlite3": "^5.1.7"
+  }
+}
