@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "format": "prettier --write *js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/PGCRUD.js"
   },
   "repository": {
     "type": "git",
@@ -20,11 +20,13 @@
   },
   "homepage": "https://github.com/Kalv4doS/testfullstack#readme",
   "devDependencies": {
+    "nodemon": "^3.1.11",
     "prettier": "^3.8.1"
   },
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
+    "mongoose": "^9.2.1",
     "pg": "^8.18.0",
     "sequelize": "^6.37.7",
     "sqlite3": "^5.1.7"
