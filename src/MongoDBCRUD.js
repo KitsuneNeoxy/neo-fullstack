@@ -9,7 +9,7 @@ const bodyParser = require("body-parser");
 
 // Database connection
 mongoose.connect(
-  "mongodb://admin:SBFsqa14913@node40731-noderest.proen.app.ruk-com.cloud:11344",
+  "mongodb://admin:YGPdtm53974@node86017-env-nexonkitsune.proen.app.ruk-com.cloud:11710",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,

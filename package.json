@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "format": "prettier --write *js",
-    "dev": "nodemon src/PGCRUD.js"
+    "dev": "nodemon src/MongoDBCRUD.js"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
-    "mongoose": "^9.2.1",
+    "mongoose": "^7.0.1",
     "pg": "^8.18.0",
     "sequelize": "^6.37.7",
     "sqlite3": "^5.1.7"
